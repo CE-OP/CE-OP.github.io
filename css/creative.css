@@ -189,27 +189,32 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 200px 15px;
     text-align: center;
 }
 
 header .header-content .header-content-bottom {
+    position: absolute;
+    z-index: 10;
+    padding-bottom: 100px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: -45px;
-    bottom: 100px%;
+    bottom: -10%;
     left: 50%;
-    position: absolute;
-    z-index: 10;
+
 }
 
 header .header-content .header-content-inner h1 {
-    padding-bottom: 100px;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 70pt;
+    font-size: 4em;
+    background-color: #696969;
+    border-radius: 20px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
 }
 
 header .header-content .header-content-inner hr {
@@ -237,10 +242,21 @@ header .header-content .header-content-inner p {
         transform: translateY(-50%);
     }
 
+    header .header-content .header-content-bottom {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -45px;
+    bottom: -400%;
+    left: 50%;
+    position: absolute;
+    z-index: 10;
+    }
+
     header .header-content .header-content-inner h1{
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
+        font-size: 600%;
     }
 
     header .header-content .header-content-inner p {
@@ -401,10 +417,10 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    font-size: 40px;
-    border-color: #f05f40;
+    font-size: 2em;
+    border-color: #FFFFFF;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #000000;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -416,9 +432,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #FFFFFF;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #696969;
 }
 
 .btn-primary:active,
@@ -455,8 +471,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
-    border-radius: 300px;
+    border-width: 2px;
+    border-radius: 500px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
