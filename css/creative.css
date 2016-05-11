@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-    max-width: 50px;
+    max-width: 100px;
     border-color: #f05f40;
     border-width: 3px;
 }
@@ -243,13 +243,13 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content .header-content-bottom {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: -45px;
-    bottom: -400%;
-    left: 50%;
-    position: absolute;
-    z-index: 10;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: -45px;
+        bottom: -600%;
+        left: 50%;
+        position: absolute;
+        z-index: 10;
     }
 
     header .header-content .header-content-inner h1{
