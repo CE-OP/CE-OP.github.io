@@ -364,6 +364,7 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
+    font-size: 2em;
     border-color: #fff;
     color: #222;
     background-color: #fff;
