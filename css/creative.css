@@ -196,11 +196,10 @@ header .header-content {
 header .header-content .header-content-bottom {
     position: absolute;
     z-index: 10;
-    padding-bottom: 100px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: -45px;
-    bottom: -10%;
+    bottom: 5%;
     left: 50%;
 
 }
