@@ -190,6 +190,9 @@ header .header-content {
     position: relative;
     width: 100%;
     padding: 200px 15px;
+    background-color: #696969;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
     text-align: center;
 }
 
@@ -207,16 +210,13 @@ header .header-bottom {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: -10%;
-    width: 120%;
-    line-height: 200%;
+    margin-left: 0px;
+    width: 100%;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 4em;
-    background-color: #696969;
-    border-radius: 20px;
-    opacity: 0.8;
-    -moz-opacity: 0.8;
+
+
 }
 
 header .header-content .header-content-inner hr {
@@ -256,8 +256,8 @@ header .header-content .header-content-inner p {
 
     header .header-content .header-content-inner h1{
         margin-right: 0;
-        margin-left: -10%;
-        width: 120%;
+        margin-left: 0px;
+        width: 100%;
         line-height: 400%;
         font-size: 600%;
     }
